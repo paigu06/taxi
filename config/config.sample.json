@@ -1,0 +1,38 @@
+{
+  "base": {
+    "name": "Individual API",
+    "version": "1.0.0",
+    "host": "",
+    "port": 5051
+  },
+  "databases": {
+      "host": "",
+      "db": "",
+      "user": "",
+      "pass": ""
+  },
+  "amqp": {
+    "host": "amqp://localhost"
+  },
+  "msg_api": {
+    "host": "",
+    "mandrillApiKey": ""
+  },
+  "pdf_api": {
+    "host": ""
+  },
+  "secrets": {
+    "token": "",
+    "hashId": ""
+  },
+  "twilio": {
+    "number": "",
+    "sid": "",
+    "token": ""
+  },
+  "yubikey": {
+    "clientId": "1",
+    "apiKey": "",
+    "apiUrl": ""
+  }
+}
