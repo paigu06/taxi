@@ -18,7 +18,7 @@ module.exports = function( server ){
     var schedule = require( '../controllers/schedule' );
     server.get( '/schedules', schedule.index );
     server.get( '/schedules/:vehicles_id', schedule.view );
-    server.post( '/schedules/add', schedule.add );
+    server.post( '/schedule/add', schedule.add );
     server.put( '/schedules/:schedule_id/update', schedule.update );
     server.post('/schedules/:schedule_id/remove',  schedule.remove );
 };
